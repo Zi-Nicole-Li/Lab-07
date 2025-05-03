@@ -13,11 +13,10 @@ library(tidyverse)
 
 ### Exercise 1
 
-This plot oversimplified the concept of wear mask, and other situations, like quarantine policy, health baseline. 
-The original visualization somehow have dual Y-Axis Scaling, making direct comparisons difficult.
-Based on this plot, it seems like mask mandates lead to higher cases initially.
 
 ```{r re-construct visualization}
+# This plot oversimplified the concept of wear mask, and other situations, like quarantine policy, health baseline. The original visualization somehow have dual Y-Axis Scaling, making direct comparisons difficult. Based on this plot, it seems like mask mandates lead to higher cases initially.
+
 covid_data <- tribble(
   ~date, ~covid_cases, ~counties,
   "03/1/2020",  23, "Mask",
@@ -62,10 +61,10 @@ covid_data <- tribble(
   "03/20/2020", 20, "No Mask"
 )
 covid_data
+
+#3 columns, and 31 rows; this dataset shows an increase in mask-wearing and a decrease in COVID-19 cases-in general- over time.
+
 ```
-3 columns, and 31 rows; this dataset shows an increase in mask-wearing and a decrease in COVID-19 cases-in general- over time.
-
-
 
 
 ### Exercise 2
