@@ -90,7 +90,7 @@ and my plot labeled mask vs no mask with different color, it's more clear than t
 <!-- {r useful information} -->
 What, if any, useful information do these data and your visualization tell us about mask wearing and COVID? It’ll be difficult to set aside what you already know about mask wearing, but you should try to focus only on what this visualization tells. Feel free to also comment on whether that lines up with what you know about mask wearing.
 
- so only based on my visualization, it seems like wearing mask reduces the rate of covid, but it takes time to see this effect; whereas without a mask, the effect is less pronounced initially, but as time goes on, the rate of covid increases. 
+so only based on my visualization, it seems like wearing mask reduces the rate of covid, but it takes time to see this effect; whereas without a mask, the effect is less pronounced initially, but as time goes on, the rate of covid increases. 
 And while wearing a mask will slow down the chances of getting the covid, it's not a complete elimination. There are still cases of covid in both masked and non-masked areas.
 
 
@@ -110,8 +110,8 @@ ggplot(covid_data, aes(x = date, y = covid_cases, color = counties, group = coun
     color = "County Type"
   )
 ```
-# Discuss the key factors that contribute to this message, such as the variables used, the scale of the axes, and the type of visualization.
-
+## Discuss the key factors that contribute to this message, such as the variables used, the scale of the axes, and the type of visualization.
+<!-- {r discuss key factors} -->
 the variables we have are the: date (X-axis), which allowing a clear view of trends over time; and covid_cases (Y-axis) which is the measure of the infection rate; and counties shows the COVID-19 cases per 100K population, which is the primary measure of infection rate; and counties (colored as "Mask" Vs. "No Mask") given a easy comparison between two groups.
 
 I use a Line Graph, because this graph shows trends over time.

@@ -144,16 +144,15 @@ ggplot(covid_data, aes(x = date, y = covid_cases, color = counties, group = coun
   )
 ```
 
-![](lab-07_files/figure-gfm/misleading%20visz-1.png)<!-- --> \# Discuss
+![](lab-07_files/figure-gfm/misleading%20visz-1.png)<!-- --> \## Discuss
 the key factors that contribute to this message, such as the variables
 used, the scale of the axes, and the type of visualization.
-
-the variables we have are the: date (X-axis), which allowing a clear
-view of trends over time; and covid_cases (Y-axis) which is the measure
-of the infection rate; and counties shows the COVID-19 cases per 100K
-population, which is the primary measure of infection rate; and counties
-(colored as “Mask” Vs. “No Mask”) given a easy comparison between two
-groups.
+<!-- {r discuss key factors} --> the variables we have are the: date
+(X-axis), which allowing a clear view of trends over time; and
+covid_cases (Y-axis) which is the measure of the infection rate; and
+counties shows the COVID-19 cases per 100K population, which is the
+primary measure of infection rate; and counties (colored as “Mask” Vs.
+“No Mask”) given a easy comparison between two groups.
 
 I use a Line Graph, because this graph shows trends over time.
 
